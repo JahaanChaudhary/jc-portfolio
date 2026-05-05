@@ -146,18 +146,13 @@
       .sidebar {
         position: sticky;
         top: 0;
-        max-height: 100vh;
-        min-height: 100vh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 96px 0;
-        overflow-y: auto;
+        padding: 70px 0;
+        overflow: hidden;
       }
-
-      /* Hide scrollbar on the sidebar but keep functionality */
-      .sidebar::-webkit-scrollbar { width: 0; }
-      .sidebar { scrollbar-width: none; }
     }
 
     .name {
@@ -181,8 +176,8 @@
       max-width: 380px;
       font-size: 1rem;
       color: var(--text-muted);
-      line-height: 1.7;
-      margin-bottom: 40px;
+      line-height: 1.65;
+      margin-bottom: 28px;
     }
 
     .status-pill {
@@ -198,7 +193,7 @@
       font-weight: 500;
       color: var(--text-muted);
       letter-spacing: 0.02em;
-      margin-bottom: 32px;
+      margin-bottom: 24px;
       transition: all 0.25s ease;
     }
 
@@ -225,7 +220,7 @@
     /* Desktop nav */
     .nav-desktop {
       display: none;
-      margin-top: 40px;
+      margin-top: 24px;
     }
 
     @media (min-width: 1024px) {
@@ -239,7 +234,7 @@
     .nav-desktop a {
       display: flex;
       align-items: center;
-      padding: 6px 0;
+      padding: 5px 0;
       font-family: var(--font-mono);
       font-size: 0.75rem;
       font-weight: 500;
@@ -278,7 +273,7 @@
     .socials {
       display: flex;
       gap: 12px;
-      margin-top: 40px;
+      margin-top: 24px;
       align-items: center;
       flex-wrap: wrap;
       position: relative;
