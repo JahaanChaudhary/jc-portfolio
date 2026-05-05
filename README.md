@@ -1,7 +1,7 @@
 # Portfolio — Jahaan Chaudhary
 
 > Personal portfolio site. Minimal, fast, deployed on Vercel.
-> **Live:** [jahaanchaudhary.vercel.app](https://jahaanchaudhary.vercel.app) *(replace with your actual URL once deployed)*
+> **Live:** [jahaanchaudhary.vercel.app](https://jahaanchaudhary.vercel.app)
 
 A single-page portfolio built with vanilla HTML, CSS, and JavaScript — no framework, no build step. True-black minimalist palette inspired by editorial design, with a sticky sidebar layout.
 
