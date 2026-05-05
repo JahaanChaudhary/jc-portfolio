@@ -3,7 +3,7 @@
 > Personal portfolio site. Minimal, fast, deployed on Vercel.
 > **Live:** [jahaanchaudhary.vercel.app](https://jahaanchaudhary.vercel.app) *(replace with your actual URL once deployed)*
 
-A single-page portfolio built with vanilla HTML, CSS, and JavaScript — no framework, no build step. True-black minimalist palette inspired by editorial design, with a sticky sidebar layout adapted from [Brittany Chiang's site](https://brittanychiang.com/).
+A single-page portfolio built with vanilla HTML, CSS, and JavaScript — no framework, no build step. True-black minimalist palette inspired by editorial design, with a sticky sidebar layout.
 
 ---
 
